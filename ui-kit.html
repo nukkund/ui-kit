@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <title>UI-кит приложения «Соседи»</title>
+    <style media="screen">
+
+    .icon-big {
+      position: absolute;
+      width: 60px;
+      height: 60px;
+      left: 82px;
+      top: 58px;
+    }
+
+    .icon-small {
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      left: 156px;
+      top: 98px;
+    }
+
+    .reward-rectangle {
+      position: absolute;
+      width: 150px;
+      height: 22px;
+      left: 80px;
+      top: 162px;
+      border: 1px solid #2349CB;
+      box-sizing: border-box;
+      border-radius: 5px;
+    }
+
+    .reward-text {
+      position: absolute;
+      width: 130px;
+      height: 20px;
+      left: 94px;
+      top: 163px;
+      font-family: Manrope;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 20px;
+      color: rgba(0, 0, 0, 0.6);
+    }
+
+    h1 {
+      position: absolute;
+      width: 102px;
+      height: 26px;
+      left: 85px;
+      top: 217px;
+      font-family: Manrope;
+      font-style: normal;
+      font-weight: 800;
+      font-size: 22px;
+      line-height: 26px;
+      letter-spacing: -0.41px;
+      color: #3A4053;
+    }
+
+    h2 {
+      position: absolute;
+      width: 69px;
+      height: 20px;
+      left: 84px;
+      top: 255px;
+      font-family: Manrope;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 20px;
+      letter-spacing: -0.24px;
+      color: #3A4053;
+    }
+
+    .profile-pic {
+      position: absolute;
+      width: 60px;
+      height: 60px;
+      left: 82px;
+      top: 346px;
+      background: https://i.ibb.co/xL0pQrw/Ellipse-7.png;
+    }
+
+    .profile-name {
+      position: absolute;
+      width: 201px;
+      height: 24px;
+      left: 158px;
+      top: 364px;
+      font-family: Proxima Nova;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 22px;
+      line-height: 24px;
+      letter-spacing: 0.35px;
+      color: #3A4053;
+    }
+
+    .form-text {
+      position: absolute;
+      width: 322px;
+      height: 20px;
+      left: 544px;
+      top: 46px;
+      font-family: Manrope;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 20px;
+      letter-spacing: -0.24px;
+      color: #3A4053;
+    }
+
+    .form {
+      position: absolute;
+      width: 323px;
+      height: 42px;
+      left: 544px;
+      top: 79px;
+      border: 1px solid #D6D6D6;
+      box-sizing: border-box;
+      border-radius: 5px;
+          }
+
+    .plus {
+      position: absolute;
+      width: 24px;
+      height: 24px;
+      left: 544px;
+      top: 138px;
+
+    }
+
+    .vote-form {
+      position: absolute;
+      width: 283px;
+      height: 42px;
+      left: 584px;
+      top: 129px;
+      border: 1px solid #D6D6D6;
+      box-sizing: border-box;
+      border-radius: 5px;
+    }
+
+    .button-main {
+      position: absolute;
+      width: 323px;
+      height: 58px;
+      left: 539px;
+      top: 212px;
+      background: #ED553D;
+      box-shadow: 0px 3px 4px rgba(104, 104, 104, 0.25);
+      border-radius: 5px;
+          }
+
+    .button-text {
+      position: absolute;
+      top: 230px;
+      width: 96px;
+      height: 22px;
+      left: 669.5px;
+      top: 230px;
+      font-family: Manrope;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 22px;
+      text-align: center;
+      letter-spacing: -0.41px;
+      color: #FFFFFF;
+    }
+
+    .button-check {
+      position: absolute;
+      top: 229px;
+      left: 635.5px;
+
+    }
+
+    .gray-rectangle {
+    position: absolute;
+    width: 340px;
+    height: 68px;
+    left: 535px;
+    top: 338px;
+    background: #D5D5D5;
+    }
+
+    .button-white {
+      position: absolute;
+      width: 323px;
+      height: 56px;
+      left: 543px;
+      top: 344px;
+      border: 1px solid #F7F7F7;
+      box-sizing: border-box;
+      border-radius: 5px;
+    }
+
+    .button-white-text {
+      position: absolute;
+      font-family: Proxima Nova;
+      font-style: normal;
+      font-weight: bold;
+      width: 96px;
+      height: 22px;
+      top:361px;
+      left: 656.5px;
+      text-align: center;
+      letter-spacing: -0.41px;
+      color: #FFFFFF;
+    }
+
+    .button-small {
+      position: absolute;
+    width: 183px;
+    height: 56px;
+    left: 543px;
+    top: 443px;
+    background: #ED553D;
+    box-shadow: 0px 3px 4px rgba(104, 104, 104, 0.25);
+    border-radius: 5px;
+    }
+
+    .button-small-text {
+      position: absolute;
+      width: 122px;
+      height: 22px;
+      left: 574px;
+      top: 462px;
+      font-family: Manrope;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 22px;
+      color: #FFFFFF;
+    }
+
+
+    </style>
+  </head>
+
+  <body>
+  <div class="icon-big">
+    <a href='https://i.ibb.co/8KQYMCg/App-icon.png' title='iconbig'><img style="width:100%" src='https://i.ibb.co/8KQYMCg/App-icon.png' alt='iconbig.png'  /></a>
+  </div>
+
+  <div class="icon-small">
+    <a href='https://i.ibb.co/8KQYMCg/App-icon.png' title='iconbig'><img style="width:100%" src='https://i.ibb.co/8KQYMCg/App-icon.png' alt='iconbig.png'  /></a>
+  </div>
+
+  <h1>Heading 1</h1>
+
+  <h2>body text</h2>
+
+  <div class="profile-pic">
+    <a href='https://i.ibb.co/xL0pQrw/Ellipse-7.png' title='[profile]'><img style="width:100%" src='https://i.ibb.co/xL0pQrw/Ellipse-7.png' alt='iconbig.png'  /></a>
+  </div>
+
+  <div class="profile-name">
+    Тамара Литвинова
+  </div>
+
+    <div class="button-main">
+    </div>
+
+  <div class="button-text">
+    Выполнено
+  </div>
+
+  <div class="button-check">
+    <a href='https://i.ibb.co/4NmKRG1/check.png' title='[check]'><img style="width:100%" src='https://i.ibb.co/4NmKRG1/check.png' alt='check.png'  /></a>
+  </div>
+
+  <div class="gray-rectangle ">
+  </div>
+
+  <div class="button-white">
+  </div>
+
+  <div class="button-white-text">
+    Выполнено
+  </div>
+
+  <div class="button-small">
+  </div>
+
+<div class="button-small-text ">
+  Откликнуться
+</div>
+
+<div class="form-text">
+  Телефон
+</div>
+
+<div class="form">
+</div>
+
+<div class="plus">
+  <a href='https://i.ibb.co/GFSg40X/plus.png' title='[plus]'><img style="width:100%" src='https://i.ibb.co/GFSg40X/plus.png' alt='plus.png'  /></a>
+</div>
+
+<div class="vote-form">
+</div>
+
+<div class="reward-rectangle ">
+</div>
+
+<div class="reward-text">
+  Есть вознаграждение
+</div>
+
+  </body>
+</html>
